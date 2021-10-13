@@ -1,0 +1,25 @@
+{
+  "name": "js-portfolio",
+  "version": "1.0.0",
+  "description": "A minimal portfolio with Vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Platzi-courses-completed/webpack.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "jesus mejia <chucho4720013@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Platzi-courses-completed/webpack/issues"
+  },
+  "homepage": "https://github.com/Platzi-courses-completed/webpack#readme"
+}
