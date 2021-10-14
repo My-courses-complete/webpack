@@ -1,48 +1,44 @@
 {
-  "name": "js-portfolio",
+  "name": "webpack",
   "version": "1.0.0",
-  "description": "A minimal portfolio with Vanilla JavaScript",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack.config.dev.js",
-    "build": "node ./scripts/create-env.js && webpack --mode production --config webpack.config.js",
-    "build-dev": "webpack --config webpack.config.dev.js",
-    "watch": "npm run build-dev -- --watch",
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Platzi-courses-completed/webpack.git"
   },
-  "keywords": [
-    "javascript",
-    "html",
-    "css"
-  ],
-  "author": "jesus mejia <chucho4720013@gmail.com>",
-  "license": "MIT",
+  "keywords": [],
+  "author": "JMR-Mejia",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Platzi-courses-completed/webpack/issues"
   },
   "homepage": "https://github.com/Platzi-courses-completed/webpack#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.8",
-    "@babel/plugin-transform-runtime": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
-    "copy-webpack-plugin": "^9.0.1",
+    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.4.0",
     "css-minimizer-webpack-plugin": "^3.1.1",
-    "dotenv-webpack": "^7.0.3",
-    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^2.4.2",
-    "stylus": "^0.55.0",
-    "stylus-loader": "^6.2.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.0",
     "terser-webpack-plugin": "^5.2.4",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.58.1",
-    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack": "^5.58.2",
     "webpack-cli": "^4.9.0",
     "webpack-dev-server": "^4.3.1"
   }
